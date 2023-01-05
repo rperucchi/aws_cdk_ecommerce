@@ -7,7 +7,7 @@ import { ECommerceApiStack } from '../lib/ecommerceApi-stack';
 const app = new cdk.App();
 
 const env: cdk.Environment = {
-  account: "602643045824",
+  account: "", //inserir o account do seu user IAM criado
   region: "sa-east-1"
 }
 
